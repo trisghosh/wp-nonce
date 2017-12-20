@@ -1,5 +1,5 @@
 {
-    "name": "trisghosh/wordpress-nonce",
+    "name": "trisghosh/wp-nonce",
     "description": "This plugin will let users to use the wp nonce functions using the predefined class",
     "keywords": ["wpnonce","wordpress","nonce"],
     "homepage": "http://www.tristupghosh.com/",
@@ -7,7 +7,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/cwplus/wordpress-nonce"
+            "url": "https://github.com/trisghosh/wp-nonce"
         }
     ],
     "authors": [
@@ -23,6 +23,7 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.6"
+        "php": ">=5.6",
+        "tris/wp-nonce": "1.0"
     }
 }

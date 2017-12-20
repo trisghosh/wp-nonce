@@ -54,7 +54,7 @@ if ( ! class_exists( 'wpnonce' ) )
 	     */
 	    public static function wpNonceAYS($action )
 	    {
-	        wp_nonce_ays($action ); // calling default function for wp nonce ays
+	        wp_nonce_ays($action); // calling default function for wp nonce ays
 	    }//end of funciton
 
 	    /**
