@@ -9,4 +9,9 @@ Text Domain : wp-nonce
 Author URI: http://www.tristupghosh.com/
 */
 
+// return if file truied to access directly
+if ( ! defined( 'ABSPATH' ) ) {
+		return;
+}
+require_once( __DIR__ . '/vendor/autoload.php' );
 require_once( plugin_dir_path( __FILE__ ) . 'classes/wp-nonce-class.php' );
