@@ -62,7 +62,7 @@ if ( ! class_exists( 'wpnonce' ) )
 	     * @param string     :: $queryargs Optional. Key to check for nonce in `$_REQUEST||$_GET`, By Default '_wpnonce'.
 	     * @return false|int :: false if the nonce is not matched, 1 :: if the nonce is matched and valid and generation time between 0-12 Hrs, 2 if the nonce is valid and generation time between 12-24 Hrs.
 	     */
-	    public static function check_admin_referer($action = -1, $queryargs = '_wpnonce')
+	    public static function checkAdminReferer($action = -1, $queryargs = '_wpnonce')
 	    {
 	        return check_admin_referer($action, $query_arg);
 	    }//end of function
