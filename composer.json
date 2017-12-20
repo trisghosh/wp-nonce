@@ -1,0 +1,25 @@
+{
+    "name": "trisghosh/wordpress-nonce",
+    "description": "This plugin will let users to use the wp nonce functions using the predefined class",
+    "keywords": ["wpnonce","wordpress","nonce"],
+    "homepage": "http://www.tristupghosh.com/",
+    "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cwplus/wordpress-nonce"
+        }
+    ],
+    "authors": [
+        {
+            "name": "trisghosh",
+            "email": "tristup@gmail.com",
+            "homepage": "http://www.tristupghosh.com/",
+            "role": "wordpress developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    }
+}
