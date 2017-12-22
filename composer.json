@@ -24,7 +24,5 @@
         "phpunit/phpunit": "6.0"
     },
     "require": {
-        "php": ">=5.6",
-        "trisghosh/wp-nonce": "master"
+        "php": ">=5.6"       
     }
-}
