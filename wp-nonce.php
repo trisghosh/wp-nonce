@@ -15,3 +15,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 require_once( __DIR__ . '/vendor/autoload.php' );
 require_once( plugin_dir_path( __FILE__ ) . 'classes/wp-nonce-class.php' );
+//
