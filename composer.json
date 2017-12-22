@@ -18,7 +18,7 @@
             "role": "wordpress developer"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require-dev": {
         "phpunit/phpunit": "6.0"
